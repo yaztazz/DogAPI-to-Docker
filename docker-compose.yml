@@ -6,9 +6,9 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data/
     environment:
-      POSTGRES_DB: dogapi
-      POSTGRES_USER: yaztaz
-      POSTGRES_PASSWORD: Sarah2008
+      POSTGRES_DB: DogExercise
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
 
   web:
     build: .
