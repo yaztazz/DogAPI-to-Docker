@@ -21,4 +21,4 @@ RUN pip install -r requirements.txt
 COPY . /code/
 
 
-CMD [ "0.0.0.0:8000", "DogExercise.wsgi:application"]
+CMD [ "gunicorn", "--bind" "0.0.0.0:8000", "DogExercise.wsgi:application"]
