@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'DogExercise.wsgi.application'
 
 DATABASES = {
     'default': {
-        {
+        
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'DogExercise',
         'USER': 'user',
